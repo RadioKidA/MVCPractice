@@ -5,23 +5,25 @@ VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MVCPractice.VueStore", "MVCPractice.VueStore\MVCPractice.VueStore.njsproj", "{461FED1B-648A-42B6-ABB8-4D58C605A29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.WebCore", "MVCPractice.WebCore\MVCPractice.WebCore.csproj", "{0E36F349-0F40-44C7-95FB-681C252C1AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.WebCore", "MVCPractice.WebCore\MVCPractice.WebCore.csproj", "{0E36F349-0F40-44C7-95FB-681C252C1AD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.WebAPI", "MVCPractice.WebAPI\MVCPractice.WebAPI.csproj", "{D839B56B-98F4-47C4-AE3F-D308222535C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.WebAPI", "MVCPractice.WebAPI\MVCPractice.WebAPI.csproj", "{D839B56B-98F4-47C4-AE3F-D308222535C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.Cache", "MVCPractice.Cache\MVCPractice.Cache.csproj", "{EC87DC53-7BA0-4A3D-A106-730478B7FB71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.Cache", "MVCPractice.Cache\MVCPractice.Cache.csproj", "{EC87DC53-7BA0-4A3D-A106-730478B7FB71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.DAL", "MVCPractice.DAL\MVCPractice.DAL.csproj", "{C1855C2D-4972-467E-A303-1F2C056353AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.DAL", "MVCPractice.DAL\MVCPractice.DAL.csproj", "{C1855C2D-4972-467E-A303-1F2C056353AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.IDAL", "MVCPractice.IDAL\MVCPractice.IDAL.csproj", "{D6D4C181-6EB1-4373-96BC-622AE255FC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.IDAL", "MVCPractice.IDAL\MVCPractice.IDAL.csproj", "{D6D4C181-6EB1-4373-96BC-622AE255FC26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.MessageQueue", "MVCPractice.MessageQueue\MVCPractice.MessageQueue.csproj", "{26961B79-81EE-4DF4-A755-79DA08E486CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.MessageQueue", "MVCPractice.MessageQueue\MVCPractice.MessageQueue.csproj", "{26961B79-81EE-4DF4-A755-79DA08E486CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.Services", "MVCPractice.Services\MVCPractice.Services.csproj", "{2B04CE40-F486-4BA2-952D-BA4240A40960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.Services", "MVCPractice.Services\MVCPractice.Services.csproj", "{2B04CE40-F486-4BA2-952D-BA4240A40960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.Config", "MVCPractice.Config\MVCPractice.Config.csproj", "{D61EB78F-AEB9-4893-99F5-27A05CDD35CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.Config", "MVCPractice.Config\MVCPractice.Config.csproj", "{D61EB78F-AEB9-4893-99F5-27A05CDD35CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.Test", "MVCPractice.Test\MVCPractice.Test.csproj", "{070FE5F7-731F-4E26-8E3A-FCF1EE954E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCPractice.Test", "MVCPractice.Test\MVCPractice.Test.csproj", "{070FE5F7-731F-4E26-8E3A-FCF1EE954E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPractice.Test2", "MVCPractice.Test2\MVCPractice.Test2.csproj", "{1B1623DB-D154-4958-9E95-EC515A887854}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{070FE5F7-731F-4E26-8E3A-FCF1EE954E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{070FE5F7-731F-4E26-8E3A-FCF1EE954E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{070FE5F7-731F-4E26-8E3A-FCF1EE954E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1623DB-D154-4958-9E95-EC515A887854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1623DB-D154-4958-9E95-EC515A887854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1623DB-D154-4958-9E95-EC515A887854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1623DB-D154-4958-9E95-EC515A887854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
