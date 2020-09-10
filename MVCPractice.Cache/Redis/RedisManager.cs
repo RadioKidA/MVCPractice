@@ -6,6 +6,7 @@ using StackExchange.Redis;
 using System.Collections.Concurrent;
 using System.Data.Common;
 using System.Configuration;
+using MVCPractice.Config;
 
 namespace MVCPractice.Cache.Redis
 {
@@ -27,12 +28,14 @@ namespace MVCPractice.Cache.Redis
         /// <summary>
         /// 当前连接的Redis中连接字符串，格式为：127.0.0.1:6379,allowadmin=true,passowrd=pwd
         /// </summary>
-        internal static readonly string RedisHostConnection = ConfigurationManager.AppSettings["RedisHostConnection"];
+        internal static readonly string RedisHostConnection = ConfigHelper.ReadSetting("Redis:RedisHostConnection");
 
         /// <summary>
         /// 当前连接的Redis中的DataBase索引，默认0-16，可以在service.conf配置，最高64
         /// </summary>
-        internal static readonly int RedisDataBaseIndex = int.Parse(ConfigurationManager.AppSettings["RedisDataBaseIndex"]);
+        internal static readonly int RedisDataBaseIndex = int.Parse(ConfigHelper.ReadSetting("Redis:RedisDataBaseIndex"));
+
+        internal static readonly string RedisSysCustomKey = ConfigHelper.ReadSetting("Redis:RedisSysCustomKey");
 
         public static ConnectionMultiplexer Instance
         {
