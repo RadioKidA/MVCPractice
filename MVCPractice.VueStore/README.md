@@ -1,3 +1,0 @@
-# MVCPractice.VueStore
-
-

@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MVCPractice.Cache\MVCPractice.Cache.csproj" />
     <ProjectReference Include="..\MVCPractice.Config\MVCPractice.Config.csproj" />
   </ItemGroup>
 
