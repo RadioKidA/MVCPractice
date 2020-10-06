@@ -6,7 +6,14 @@
 
   <ItemGroup>
     <Folder Include="Kafka\" />
-    <Folder Include="RabbitMQ\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVCPractice.Config\MVCPractice.Config.csproj" />
   </ItemGroup>
 
 </Project>

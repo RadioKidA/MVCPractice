@@ -23,6 +23,10 @@ namespace MVCPractice.WebAPI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// 获取天气
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

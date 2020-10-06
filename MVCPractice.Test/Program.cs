@@ -1,7 +1,6 @@
-﻿using MVCPractice.Config;
-using System;
-using System.Configuration;
+﻿using System;
 using MVCPractice.Cache.Redis;
+using MVCPractice.MessageQueue.RabbitMQ;
 
 namespace MVCPractice.Test
 {
@@ -14,6 +13,8 @@ namespace MVCPractice.Test
             var cache = RedisHelper.StringService;
 
             cache.StringSet("333222111", new { name = 123, id = 321 });
+
+            RabbitManager.Add();
 
 
             Console.ReadKey();

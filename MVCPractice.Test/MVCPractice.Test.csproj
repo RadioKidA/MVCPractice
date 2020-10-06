@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MVCPractice.Cache\MVCPractice.Cache.csproj" />
     <ProjectReference Include="..\MVCPractice.Config\MVCPractice.Config.csproj" />
+    <ProjectReference Include="..\MVCPractice.MessageQueue\MVCPractice.MessageQueue.csproj" />
   </ItemGroup>
 
 </Project>
